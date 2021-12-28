@@ -45,6 +45,42 @@ a# Beginner JavaScript notes
         * you can do multiple lines with backticks, variable interpolation, and there is something a little more advanced that is called a tagged template literal, but that is more for when you get into functions.
 
 # 8 Types - Numbers <a name="Lession 8"> Lession 8 </a>
+* Typeof is a keyword in JavaScript that allows you to check the type of a value.
+* You can use Typeof in the console by writing typeof followed by a space and a variable or value. That will tell you whether its a number, a sting , or any of the other types.
+* Numbers in JavaScript are pretty simple.
+  * You can create an integer, which is a whole number like 100 or you can create a float which is a number that has a decimal like 100.5.
+  * You need to beware of is mixing types.
+    * If you try and do math with a string type for example you start to get into concatenation.
+    *  like const math = "1" + "1" will output "11" because of the concatenation of the two string compared to "2" if you where just doing math.
+    *  That is refer to in JavaScript as "the plus sign is loaded" meaning the plus sign can be used with numbers to add, with stings to concatenate, and then there is a lot of room to run into bugs.
+    *  If you try to do math with strings, it will convert them for you if you are doing subtraction, division or multiplication, but not for addition.
+    *  When doing math, we need to make sure that we are dealing with true numbers and not mixing types.
+ * Along with number we also have what we call helper methods.
+   * If you go into the browser console and type "Math." you will see a lot of built in helper methods.
+  ### Helper Methods
+  *There are four you are most likely to use.
+    1. Math.round()
+    2. Math.floor()
+    3. Math.ceil()
+    4. Math.random()
+ 1. to use Math.round(), you pass a value in between the parenthesis () (that is referred to as passing a value). It will return to you number that was passed in, round up or down depending on the number. Math.round(20.5) -> 21 or Math.round(20.2) -> 20.
+ 2. Math.floor() which will give you the lower end of that number. -> like Math.floor(20.2) -> 20 or Math.floor(20.9999) -> 20
+ 3. You have Math.ceil() and that will give you the upper number. -> like Math.ceil(20.99) -> 21 
+ 4. There is Math.round() which will give you a random number every time between 0 and 1. -> Math.round() -> output some long decimal number like 0.014844055
+   
+### Modulo and Power operators
+* Along with multiplication, division, subtraction and addition, we have two more operators which are called the modulo and the power.
+  * example, in the console that evaluates to:
+    const smarties = 20;
+    const kids = 3;
+    const eachKidGets = smarties / kids;
+    console.log(`Each kid gets ${eachKidGets}`);
+    output --> Each kid gets 6.66666666667
+    That number is not going to work since we are not going to split the candy.
+    So instead, what we can do is specify that it is a whole number of smarties that we need and can't round up so we can use Math.floor().
+    Modify the code to --> const eachKidGets = Math.floor(smarties / kids);
+    output --> Each kid gets 6.
+
 
 
 # 12 Functions Built In <a name="Lession 12"> Lession 12 </a>
