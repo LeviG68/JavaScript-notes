@@ -28,7 +28,24 @@ a# Beginner JavaScript notes
 *  A // can be used as a single line comment or used to comment a code block as well when debugging.
 *  What are the difference between the single and double quotes ?, nothing both do the same thing.
 *  The only reason why we have them is for sentence structure where you might need to use and apostrophe s (she's).
-*  
+*  Before backticks where introduced, they only thing you could use to achieve that is concatenation.
+   *  Another benefit of backticks is interpolation and concatenation.
+   *  Concatenation - is when two or more strings are combined into one.
+   *  Interpolation is when you put a variable inside of a string.
+
+* Backticks
+  * with backticks you can interpolate the sting like this.
+      * const name = "Levi"
+      * const hello = `Hello my name is ${name}. Nice to meet you`;
+      * The ${} syntax can only ever be used in backticks. It is the easiest way to pop a variable into a string.
+      * Almost anything can go between the curly brackets {} in that syntax. For example you can do math.
+          - const hello = `Hello my name is ${name}. Nice to meet you. I am ${1 + 100} years old`;
+      * JavaScript will run whatever is inside of the curly brackets in that syntax (weather it is a variable or an actual statement) and it will return the value that's inside of it.
+      * To reiterate: 
+        * you can do multiple lines with backticks, variable interpolation, and there is something a little more advanced that is called a tagged template literal, but that is more for when you get into functions.
+
+# 8 Types - Numbers <a name="Lession 8"> Lession 8 </a>
+
 
 # 12 Functions Built In <a name="Lession 12"> Lession 12 </a>
 * allow us to group a set of statements 
