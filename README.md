@@ -81,6 +81,30 @@ a# Beginner JavaScript notes
     Modify the code to --> const eachKidGets = Math.floor(smarties / kids);
     output --> Each kid gets 6.
 
+# 9 Types Objects <a name="Lession 9"> Lession 9 </a>
+* Objects in JavaScript are the biggest building block and almost everything in JavaScript is an object.
+* Object are used for collections of data or collections of functionality.
+* You need to know that when something is an object in JavaScript, it's because we want to group things together.
+* If you have been using random variable like const name = 'Levi' or const age = 100;. That is not the best way of doing things, because the values are not associated.
+* What you can do instead is create an object called person.
+  * We will create it using two curly brackets and a semi colon. That is the most common way to make an object, but there are other ways that we will go over.
+    const person = {};
+  * Inside of the person object, you have what are called properties and values. 
+      const person = {
+        first: 'levi',
+        last: 'Toddy',
+        age: 55,
+      };
+  * What we have done here is created an object that allows us to group together variables. In the example above we have first , last  and age variables all contained within an object for a collection that is "person".
+  * In the console, if you type person it will return the value, which is the object.
+  * If you check the typeof the person variable, it will return the object type.
+* You might have noticed that the object properties are in a different order than what we typed, the short and skinny of that is the order doesn't matter in an object. If you need order to matter, then use array or Map data structure.
+* To access the properties, there are different ways to do that.
+  * There is dot notation 
+      person.first --> "Levi"
+      person.last --> "Toddy"
+* When we get deeper into objects in the future, we will go over the other ways to do that as well, like nesting objects and objects vs reference and copying objects.
+
 
 
 # 12 Functions Built In <a name="Lession 12"> Lession 12 </a>
