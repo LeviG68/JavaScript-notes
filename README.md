@@ -105,6 +105,15 @@ a# Beginner JavaScript notes
       person.last --> "Toddy"
 * When we get deeper into objects in the future, we will go over the other ways to do that as well, like nesting objects and objects vs reference and copying objects.
 
+# 10 Types - Null and undefined <a name="Lession 10"> Lession 10 </a>
+* Two ways to express nothing in JavaScript, that is with Null and undefined.
+* Undefined - if you create a variable and set it to nothing, then it will be undefined.
+  * Undefined is something that has been  created ( a variable ) but has not yet been defined.
+    * The same thing goes for properties of objects, why ? because there is nothing there.
+  
+* Null - is a value of nothing, whereas undefined is a variable that has not yet had a value assigned to it.
+  * NOTE - you can not use the const variable without setting a value.
+  
 
 
 # 12 Functions Built In <a name="Lession 12"> Lession 12 </a>
