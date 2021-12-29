@@ -114,6 +114,19 @@ a# Beginner JavaScript notes
 * Null - is a value of nothing, whereas undefined is a variable that has not yet had a value assigned to it.
   * NOTE - you can not use the const variable without setting a value.
   
+# 11 Types - Booleans and Equality <a name="Lession 11"> Lession 11 </a>
+* Boolean - is either true or false, like a light switch either on or off.
+* Use boolean for logic such as if statements in JavaScript code.
+* Booleans can be manually set or calulated.
+* Let say that we want to find out if a a user is moving there mouse and if they are clicking down or up.
+  * To do that we can use a flag variable, which is a variable that is set to either true or false.
+  * When the user clicks down, we set it to true and when they click up we set it to false. That is what a boolean is -- something that is either true or false.
+
+###  Equality ( equal sign, double equal and triple equal sign)
+* One equal = is use to assign a value to a variable.
+* Triple equal === you should almost always be using with booleans.
+  * Triple equal === will alway check for both value and type, on both the right and left hand sides of the equal signs.
+  
 
 
 # 12 Functions Built In <a name="Lession 12"> Lession 12 </a>
